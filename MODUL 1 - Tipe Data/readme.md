@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
+ <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
 <p align="center">Ferdinan Silaen</p>
 
 ## Dasar Teori
@@ -29,7 +29,7 @@ Tipe data koleksi adalah kategori penting dalam pengembangan perangkat lunak yan
 ## Guided 1
 ### Tipe Data Primitif
 
-![g full1](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/b2ea1f35-6fdb-484a-885a-2cc39f6b422a)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/dd5dd2e6-c41e-4477-9032-da979757ac56)
 
 ```C++
 #include <iostream>
@@ -61,13 +61,13 @@ using namespace std;
  }
 ```
 ### Output 
-![guided1](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/6e6cf31b-33ce-46d9-b547-ab93cbea98f3)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/96369d36-1152-454c-a0f2-e7d9dc12c4d6)
 
 Kode di atas Program ini meminta pengguna memasukkan operator matematika dan dua angka. Kemudian, berdasarkan operator yang dipilih, program akan melakukan operasi matematika yang sesuai (penjumlahan, pengurangan, perkalian, atau pembagian) pada dua angka tersebut. Setelah menerima input dari, program akan melakukan operasi matematika sesuai dengan operator yang dipilih. Misalnya operator yang dipilih adalah '+', program akan menambahkan angka pertama dan angka kedua. Jika operator yang dipilih adalah '-', program akan mengurangi angka pertama dengan angka kedua. Jika operator yang dipilih adalah '*', program akan menghasilkan angka pertama kali dengan angka kedua. Jika operator yang dipilih adalah '/', program akan membagi angka pertama dengan angka kedua. Jika operator tidak valid, program akan menampilkan pesan kesalahan. Setelah itu, program akan berakhir dengan nilai 0. 
 
 ## Guided 2
 ### Tipe Data Abstark
-![g full2](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/8ac17810-ad19-4646-8e7a-b1f5bbf941da)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/ae87c844-1fa2-4f49-88aa-4be1bee4c1f6)
 
 ```C++
 #include <stdio.h>
@@ -106,14 +106,14 @@ int main()
 ```
 ### Output
 
-![guided2](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/781ab100-47c1-48e8-9d58-8773fc7d9bc9)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/ebca1fe4-6f88-4ee1-a6b3-dad0ae398683)
 
 Kode di atas adalah sebuah program yang menggunakan struktur (struct) untuk menyimpan informasi tentang mahasiswa. Program tersebut memberikan gambaran praktis bagaimana struktur digunakan untuk membentuk tipe data baru yang dapat menggabungkan elemen-elemen dengan tipe data yang berbeda.  Struktur Mahasiswa memiliki tiga anggota: name, address, dan age, yang digunakan untuk menyimpan nama, alamat, dan usia mahasiswa. Dalam fungsi main(), dua variabel mhs1 dan mhs2 bertipe Mahasiswa dideklarasikan untuk merepresentasikan dua mahasiswa. Nilai-nilai untuk masing-masing anggota dari kedua variabel diisi, dan kemudian informasi tentang masing-masing mahasiswa dicetak menggunakan fungsi printf(). Setelah itu, program mengembalikan nilai 0 untuk menandakan bahwa eksekusi program berhasil. 
 
 ## Guided 3
 ### Tipe Data Koleksi
 
-![g full3](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/a64f8ef4-2d3a-4f55-9d4a-6101667c62c5)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/c424d701-ef90-4c4c-b98b-b302ff8ec39d)
 
 ```C++
 #include <iostream>
@@ -139,7 +139,7 @@ int main()
 }
 ```
 ### Output 
-![guided3](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/cc3384c2-c707-4723-86d1-8e06d633d9a8)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/94cb5c2a-f6fd-4767-bf58-0eb819f2e613)
 
 Kode di atas  menggunakan array untuk menyimpan nilai.  Array nilai bertipe int dan memiliki panjang 5. Dalam fungsi main(), array nilai bertipe int dideklarasikan dan diinisialisasi dengan nilai 23, 50, 34, 78, dan 90. Setelah itu, informasi array nilai dicetak menggunakan cout. Informasi array nilai dicetak menggunakan cout. Informasi array dicetak satu per satu, mulai dari nilai pertama hingga nilai kelima. Setelah informasi array dicetak, program mengembalikan nilai 0 untuk menandakan bahwa eksekusi program berhasil.
 
@@ -147,7 +147,7 @@ Kode di atas  menggunakan array untuk menyimpan nilai.  Array nilai bertipe int 
 
 ### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
-![ung full1](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/5a0bae32-a541-44b7-a2a7-663d8d270dcf)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/ebf3b41a-6fce-4aaf-9e3f-cdd80632ca6a)
 
 ```C++
 #include <iostream>
@@ -189,7 +189,7 @@ int main() {
 }
 ```
 ### Output
-![unguided1](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/df465e76-4460-41fd-a17b-8c331b352c42)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/9c50f8ae-c91f-4046-a04a-6292474af0af)
 
 Kode program diatas terdiri dari dua fungsi. Fungsi pertama, cekBilangan(), digunakan untuk menentukan apakah sebuah bilangan bulat positif, negatif, atau nol. Fungsi kedua, hitungRataRata(), digunakan untuk menghitung rata-rata dari dua bilangan pecahan. Di dalam fungsi main(), pengguna diminta untuk memasukkan sebuah bilangan bulat dan dua bilangan pecahan. Setelah memasukkan bilangan-bilangan tersebut, program memanggil fungsi cekBilangan() untuk menentukan jenis bilangan bulat yang dimasukkan. Kemudian, program memanggil fungsi hitungRataRata() untuk menghitung rata-rata dari dua bilangan pecahan yang dimasukkan pengguna. Hasil rata-rata dari dua bilangan pecahan kemudian dicetak ke layar.
 
@@ -198,7 +198,7 @@ Dari contoh program di atas, kita dapat melihat penggunaan tipe data primitif bo
 
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 
-![ung full2](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/407a2ddc-8c40-4f2e-9690-159ad75ae89e)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/540fdfac-4a96-43d2-b411-6528589ae46f)
 
 ```C++
 // Class
@@ -233,7 +233,7 @@ int main() {
 }
 ```
 ### Output
-![unguided2a](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/938c0713-4b6f-4f54-b925-ea17d64c4f47)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/d49105cf-dabd-4297-8ed0-e54527783ffc)
 
 Dalam pemrograman berorientasi objek (OOP), class adalah sebuah blueprint atau cetak biru yang digunakan untuk membuat objek. Class mendefinisikan atribut (data) dan metode (fungsi) yang digunakan untuk mengoperasikan objek yang akan dibuat. Sebuah class dapat memiliki atribut (variabel) dan metode (fungsi) yang mendefinisikan perilaku objek tersebut. Class memungkinkan untuk melakukan enkapsulasi, yaitu menyembunyikan detail implementasi dan hanya menampilkan antarmuka yang diperlukan. Atribut biasanya merepresentasikan data yang dimiliki oleh objek, sedangkan metode adalah perilaku atau tindakan yang dapat dilakukan oleh objek tersebut. Objek dibuat berdasarkan class, dan setiap objek dapat memiliki data yang unik. 
 
@@ -271,7 +271,7 @@ int main() {
 }
 ```
 ### Output
-![unguided2b](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/ab597fb6-ded1-4a7c-a084-f282e81ad5cd)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/25e952f2-23e4-4570-b047-1bf0b5285d5f)
 
 Struct adalah tipe data yang digunakan untuk mengelompokkan beberapa variabel dengan tipe data yang berbeda ke dalam satu unit. Secara umum, struct mirip dengan class, tetapi memiliki perbedaan utama dalam sifat default visibilitasnya. Secara default, semua anggota dalam struct adalah public, sementara dalam class adalah private. Struct digunakan untuk mengelompokkan beberapa variabel dengan tipe data yang berbeda ke dalam satu unit, dan sering digunakan untuk membuat data sederhana dengan default visibilitas yang public.
 
@@ -281,7 +281,7 @@ Class digunakan untuk mendefinisikan struktur data yang kompleks dengan atribut 
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
 
-![ung full3](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/d96e3af9-1a35-4f65-b569-d8276b083fc6)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/4bd2017a-8806-43c3-819b-b139b83831bc)
 
 ```C++
 #include <iostream>
@@ -309,7 +309,7 @@ int main() {
 
 ```
 ### Output 
-![unguided3](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/e8e7fac7-3932-4ef9-9405-21cab06761c7)
+![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/5ac619eb-c2b7-43f7-a1a0-1e10332ab593)
 
 Kode di atas menggunakan pustaka iostream dan map untuk membuat dan mengelola kumpulan data siswa berupa nama dan umur. Pada awalnya, sebuah map dengan tipe data map <string,int> dideklarasikan untuk menyimpan data siswa, di mana kunci berupa nama siswa (bertipe string) dan nilai berupa umur siswa (bertipe integer). Kemudian, data siswa ditambahkan ke dalam map menggunakan operator indeks, di mana nama siswa menjadi kunci dan umur siswa menjadi nilainya. Setelah itu, program menampilkan umur siswa dengan menggunakan kunci yang sesuai dari map tersebut. Hasilnya adalah umur dari setiap siswa yang ditampilkan ke layar dengan disertai keterangan tahun.
 ### Perbedaan antara Array dan Map:
