@@ -10,9 +10,25 @@ public:
     int tahunProduksi;
 
     void tampilkanInfo() {
+        cout << "=== Mobil ====" << endl;
         cout << "Merek: " << merek << endl;
         cout << "Warna: " << warna << endl;
         cout << "Tahun Produksi: " << tahunProduksi << endl;
+    }
+};
+
+// Definisi struct
+struct Mahasiswa {
+    string nama;
+    int umur;
+    string jurusan;
+
+    // Metode untuk menampilkan informasi mahasiswa
+    void tampilkanInfo() {
+        cout << "\n=== Mahasiswa ====" << endl;
+        cout << "Nama: " << nama << endl;
+        cout << "Umur: " << umur << endl;
+        cout << "Jurusan: " << jurusan << endl;
     }
 };
 
@@ -25,32 +41,8 @@ int main() {
 
     // Menampilkan informasi mobil
     mobil1.tampilkanInfo();
-
-    return 0;
-}
-
-
-// Struct
-#include <iostream>
-#include <string>
-using namespace std;
-
-// Definisi struct
-struct Mahasiswa {
-    string nama;
-    int umur;
-    string jurusan;
-
-    // Metode untuk menampilkan informasi mahasiswa
-    void tampilkanInfo() {
-        cout << "Nama: " << nama << endl;
-        cout << "Umur: " << umur << endl;
-        cout << "Jurusan: " << jurusan << endl;
-    }
-};
-
-int main() {
-    // Membuat objek dari struct Mahasiswa
+    
+    // Membuat objek dari Struct Mhs
     Mahasiswa mhs1;
     mhs1.nama = "Ferdi";
     mhs1.umur = 19;
