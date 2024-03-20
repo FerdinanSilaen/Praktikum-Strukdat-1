@@ -28,8 +28,7 @@ Tipe data koleksi adalah kategori penting dalam pengembangan perangkat lunak yan
 
 ## Guided 1
 ### Tipe Data Primitif
-
-![image](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/dd5dd2e6-c41e-4477-9032-da979757ac56)
+![alt text](image-1.png)
 
 ```C++
 #include <iostream>
