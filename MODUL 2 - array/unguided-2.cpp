@@ -4,14 +4,14 @@ using namespace std;
 
 int main(){
   int rows, cols, depth;
-    cout << "Masukkan jumlah baris, kolom, dan derajat: ";
+    cout << "Masukkan jumlah derajat, baris, dan kolom: ";
     cin >> rows >> cols >> depth;
 
     int arr[rows][cols][depth];
 
     // Memasukkan elemen-elemen array
     for (int i = 0; i < rows; i++){
-        cout << "Masukkan elemen-elemen baris ke-" << i+1 << ":" << endl;
+        cout << "Masukkan elemen-elemen derajat ke-" << i+1 << ":" << endl;
         for ( int j = 0; j < cols; j++){
             for (int k = 0; k < depth; k++){
                 cout << "Array[" << i << "][" << j << "][" << k << "] = ";
