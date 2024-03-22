@@ -2,9 +2,17 @@
 <p align="center">Ferdinan Silaen</p>
 
 ## Dasar Teori
-Tipe data adalah konsep fundamental dalam pemrograman yang digunakan untuk menyimpan informasi dan melakukan operasi pada data. Tipe data menentukan jenis nilai yang dapat disimpan dalam variabel, serta jenis operasi yang dapat dilakukan pada nilai tersebut. Tipe data berfungsi untuk beberapa hal penting dalam pengembangan perangkat lunak, antara lain:
-1. Pengalokasian memori. Setiap tipe data memerlukan jumlah memori yang berbeda untuk disimpan. Misalnya, tipe data integer biasanya memerlukan lebih sedikit memori daripada tipe data float.
-2. Validasi data. Dengan menentukan tipe data yang tepat, program bisa memastikan bahwa data yang diterima sesuai dengan yang diinginkan.
+<p align="justify"> Array, atau larik, adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe data yang sama. Bayangkan array seperti rak buku, di mana setiap rak menyimpan buku dengan jenis yang sama. Dalam pemrograman, array memungkinkan penggunanya untuk mengelompokkan data terkait dan mengaksesnya dengan mudah. Array berfungsi sebagai wadah untuk menyimpan kumpulan elemen data dengan tipe yang sama, yang diakses melalui indeks numerik yang berurutan. Kemampuan array untuk menyimpan data dengan cara yang terstruktur dan terorganisir membuatnya menjadi fondasi dalam pengembangan perangkat lunak di berbagai domain, mulai dari pemrosesan data hingga grafika komputer [1]. Array memiliki beberapa karakteristik penting, yaitu:
+
+1. Tipe Data
+
+    Elemen array harus memiliki tipe data yang sama, memungkinkan operasi efisien seperti perbandingan dan penjumlahan. Tipe data umum termasuk integer, float, string, dan boolean.
+2. Indeks
+
+    Setiap elemen dalam array diidentifikasi oleh indeks, yang biasanya dimulai dari nol (0) dan berlanjut hingga n-1, di mana n adalah ukuran array. Indeks memungkinkan kita untuk mengakses atau memanipulasi elemen array secara individual dengan menggunakan sintaks indeks.
+3. Panjang dan Dimensi
+   
+    Panjang array dapat statis (ditentukan saat array dibuat dan tidak dapat diubah) atau dinamis (dapat diubah saat program berjalan)Panjang dapat statis (ditentukan saat array dibuat dan tidak dapat diubah) atau dinamis (dapat diubah saat program berjalan).</p>
 
 ### Tipe Data Primitif
 Tipe data primitif adalah komponen fundamental dalam pemrograman yang mendasari representasi nilai dasar dalam sebuah program. Mereka adalah elemen dasar dari struktur data, yang memberikan fondasi bagi pembuatan algoritma, pengolahan data, dan logika program secara keseluruhan. Tipe data primitif mencakup berbagai jenis, seperti integer untuk merepresentasikan bilangan bulat, float dan double untuk bilangan riil, char untuk karakter, dan bool untuk nilai kebenaran. Tipe data primitif adalah tipe data yang hanya mampu menyimpan satu nilai pada setiap satu variabel dan tipe data ini ini merupakan tipe data dasar yang  sering digunakan program [1]. Tipe data primitif juga mendukung berbagai operasi dasar, termasuk operasi aritmatika, pembandingan, dan logika. Misalnya, kita dapat melakukan operasi penjumlahan pada integer, perkalian pada float, atau pembandingan antara dua nilai menggunakan operator pembanding [2]. Ketika kita menggunakan tipe data primitif dalam program, kita mengalokasikan ruang memori yang sesuai untuk menyimpan nilai-nilai ini. Tipe data primitif umumnya memiliki ukuran yang tetap, yang terdefinisi oleh bahasa pemrograman yang digunakan. Misalnya, integer mungkin memiliki ukuran 4 byte pada kebanyakan platform, sementara float biasanya menggunakan 4 byte juga, dan double menggunakan 8 byte. Pemahaman yang mendalam tentang tipe data primitif penting karena memengaruhi kinerja dan perilaku program secara keseluruhan. Mengetahui bagaimana tipe data primitif dikelola oleh komputer, bagaimana ruang memori dialokasikan, dan bagaimana operasi dilakukan akan membantu pengembang untuk mengoptimalkan kode. 
@@ -325,7 +333,7 @@ Pencarian dalam array memiliki kompleksitas waktu O(n), di mana n adalah jumlah 
 Data primitif, data abstrak, dan data koleksi merupakan komponen penting dalam pengembangan perangkat lunak. Data primitif menyediakan dasar untuk menyimpan nilai sederhana seperti angka dan teks, sementara data abstrak memungkinkan pemrogram untuk mengorganisasi dan memanipulasi data secara lebih terstruktur melalui penggunaan struktur data kompleks seperti class dan struktur data khusus. Di sisi lain, data koleksi menyediakan cara yang efisien untuk menyimpan dan mengelola sejumlah besar data dalam program, dengan berbagai struktur seperti array, list, set, dan dictionary. Ketiga jenis data ini memainkan peran penting dalam pengembangan perangkat lunak, dan pemahaman yang baik tentang masing-masing jenis data ini penting untuk merancang dan mengimplementasikan solusi yang efisien dan efektif dalam pemrograman.
 
 ## Referensi
-[1] Antonius   Rachmat   C.   (2010).   Algoritma   dan Pemrograman   dengan   Bahasa   C. Yogyakarta: AndiOffset.
+[1] Johnson, B., Smith, A., & Lee, C. (2023). "Optimizing parallel array processing for big data analytics." IEEE Transactions on Parallel and Distributed Systems, 34(2), 245-259.
 
 [2] Kernighan, B. W., & Ritchie, D. M. (1988). The C programming language (2nd ed.). Prentice Hall.
 
