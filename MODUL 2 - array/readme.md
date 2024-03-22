@@ -233,7 +233,7 @@ int main(){
 ![unguided out 2a](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/406abea9-777a-4f3e-917f-4f83ef5d5dce)
 ![unguided out 2b](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/15c88cb6-05b7-4717-8c34-e193f6e62dba)
 
-<p align="justify">Pada program diatas kita diminta untuk memasukkan jumlah baris, kolom, dan kedalaman (derajat) atau ada berapa matriks yang kita inginkan dari array tiga dimensi yang ingin dibuat. Pada kode diatas kita memasukkan 3 derajat, 2 baris, dan 3 kolom.
+<p align="justify">Pada program diatas kita diminta untuk memasukkan jumlah baris, kolom, dan kedalaman (derajat) atau ada berapa matriks yang kita inginkan dari array tiga dimensi yang ingin dibuat. Pada kode diatas kita memasukkan 3 derajat, 2 baris, dan 3 kolom.  Setelah semua elemen diisi, program akan mencetak kembali nilai-nilai yang dimasukkan dengan menggunakan looping yang sesuai dengan ukuran array. Output dari program ini akan menampilkan nilai-nilai yang dimasukkan dalam bentuk array 3 dimensi, dengan indeks baris, kolom, dan derajat yang sesuai. Dalam kodingan tersebut, tiga looping digunakan untuk mengisikan dan mencetak elemen-elemen array. Setiap looping memiliki tujuan yang berbeda, tetapi semua looping bertujuan untuk mengakses dan mengubah nilai-nilai elemen array. 
 
 <p align="justify">3. Buatlah program menu pencarian nilai maksimum, minimum, dan nilai rata-rata dari suatu array dengan input yang dimasukkan oleh user!
 
@@ -305,14 +305,15 @@ int main() {
 
     return 0;
 }
+
 ```
 ### Output 
 ![unguided out 3](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/60b4f836-b827-46cd-bec3-9ed0c128ad2f)
 
-<p align="justify">
+<p align="justify"> Program diatas akan meminta pengguna untuk memasukkan jumlah elemen yang diinginkan. Pada kode diatas kita memasukkan 7 elemen. Setelah pengguna memasukkan jumlah elemen, selanjutnya pengguna diminta untuk memasukkan nilai-nilai dari elemen-elemen tersebut satu per satu. Pada kodingan diatas kita menginputkan 5 17 8 52 71 24. Setelah semua data dimasukkan, program akan menampilkan sebuah menu operasi yang berisi beberapa pilihan yaitu, mencari nilai maksimum, mencari nilai minimum, mencari rata-rata, atau keluar dari program. Pengguna diminta untuk memilih operasi yang diinginkan dengan memasukkan nomor pilihan yang sesuai. Program kemudian akan mengeksekusi operasi yang dipilih oleh pengguna. Jika pengguna memilih untuk mencari nilai maksimum (pilihan 1), program akan melakukan iterasi melalui seluruh elemen array untuk menemukan nilai maksimum. Setelah nilai maksimum ditemukan, program akan mencetak nilai maksimum tersebut. Pada contoh kode tersebut nilai maksimumnya adalah 71. Jika pengguna memilih untuk mencari nilai minimum (pilihan 2), program akan melakukan iterasi melalui seluruh elemen array untuk menemukan nilai minimum. Setelah nilai minimum ditemukan, program akan mencetak nilai minimum tersebut. Pada kode tersebut nilai minimumnya adalah 5. Jika pengguna memilih untuk mencari rata-rata (pilihan 3), program akan menjumlahkan seluruh elemen array dan kemudian membagi hasil penjumlahan tersebut dengan jumlah elemen. Program akan mencetak rata-rata dari data yang dimasukkan. Pada kode tersebut rata-ratanya adalah 26. Jika pengguna memilih untuk keluar dari program (pilihan 4), program akan berhenti dan mengakhiri eksekusi.
 
 ## Kesimpulan
-<p align="justify">
+<p align="justify">Array sama halnya seperti wadah besar di mana Anda bisa menyimpan banyak sekali barang sejenis, seperti dalam satu rak toko yang berisi banyak kotak. Setiap kotak dalam rak itu punya nomor tertentu, sehingga Anda bisa dengan mudah menemukan barang yang diinginkan. Begitu juga dengan array, setiap data disimpan dalam posisi tertentu dengan nomor atau indeksnya sendiri. Dengan array, Anda bisa menyimpan banyak data dengan cara yang rapi dan mudah diatur. Ini membantu Anda dalam mengakses dan mengelola data dengan cepat dan efisien, sama seperti mengambil barang dari rak toko. Dengan menggunakan array, pengembang aplikasi bisa membuat program-program yang lebih baik dan efisien dalam mengolah data.
 
 ## Referensi
 [1] Johnson, B., Smith, A., & Lee, C. (2023). "Optimizing parallel array processing for big data analytics." 34(2), 245-259.
@@ -320,4 +321,3 @@ int main() {
 [2] Wang, X., Chen, Y., & Liu, Z. (2018). "Optimizing Memory Access Patterns in One-Dimensional Arrays." ACM Transactions on Programming Languages and Systems, 40(4), 102-115.
 
 [3]Zhang, Q., Li, R., & Kim, S. (2020). "Efficient Algorithms for Multidimensional Array Operations." 69(8), 120-135.
-
