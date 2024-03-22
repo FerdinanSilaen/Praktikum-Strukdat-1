@@ -5,13 +5,10 @@
 <p align="justify"> Array, atau larik, adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe data yang sama. Bayangkan array seperti rak buku, di mana setiap rak menyimpan buku dengan jenis yang sama. Dalam pemrograman, array memungkinkan penggunanya untuk mengelompokkan data terkait dan mengaksesnya dengan mudah. Array berfungsi sebagai wadah untuk menyimpan kumpulan elemen data dengan tipe yang sama, yang diakses melalui indeks numerik yang berurutan. Kemampuan array untuk menyimpan data dengan cara yang terstruktur dan terorganisir membuatnya menjadi fondasi dalam pengembangan perangkat lunak di berbagai domain, mulai dari pemrosesan data hingga grafika komputer [1]. Array memiliki beberapa karakteristik penting, yaitu:
 
 1. Tipe Data
-
     Elemen array harus memiliki tipe data yang sama, memungkinkan operasi efisien seperti perbandingan dan penjumlahan. Tipe data umum termasuk integer, float, string, dan boolean.
 2. Indeks
-
     Setiap elemen dalam array diidentifikasi oleh indeks, yang biasanya dimulai dari nol (0) dan berlanjut hingga n-1, di mana n adalah ukuran array. Indeks memungkinkan kita untuk mengakses atau memanipulasi elemen array secara individual dengan menggunakan sintaks indeks.
 3. Panjang dan Dimensi
-   
     Panjang array dapat statis (ditentukan saat array dibuat dan tidak dapat diubah) atau dinamis (dapat diubah saat program berjalan)Panjang dapat statis (ditentukan saat array dibuat dan tidak dapat diubah) atau dinamis (dapat diubah saat program berjalan).
 </p>
 
