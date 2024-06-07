@@ -237,7 +237,7 @@ Post-order traversal melakukan penelusuran pada anak kiri terlebih dahulu, kemud
 
 <p align="justify"> 1. *Cantumkan NIM pada salah satu variabel di dalam program. Contoh : int nama_22102003. Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.
 
-Output Program
+<p align="justify">Output Program
 ![soal1](https://github.com/FerdinanSilaen/Praktikum-Strukdat-1/assets/161483534/60bb289a-b3a9-459b-8258-762bc5078de5)
 
 
